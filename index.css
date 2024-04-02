@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: burlywood;
+}
+.container{
+    background: seagreen;
+    width: 400px;
+    padding: 30px;
+    font-size: 24px;
+}
+.scroll{
+    width: 400px;
+    height: 500px;
+    background: seagreen;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.bar{
+    padding: 30px;
+}
